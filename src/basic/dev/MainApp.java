@@ -26,7 +26,7 @@ public class MainApp {
 		x[i] = sc.nextInt();
 		}
 	}
-	//in mang
+	
 	static void expArr(int []x) {
 		for(int i = 0 ; i < x.length; i++) {
 			System.out.printf("%d\t ", x[i]);
@@ -45,8 +45,7 @@ public class MainApp {
 			System.out.println("\nTong mang la le\n");
 			}
 	}
-	
-	//dem so so chan trong mang, so so le trong mang
+
 	static void countChanLe(int [] x) {
 		int countC = 0;
 		int countL = 0;
