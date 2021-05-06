@@ -17,8 +17,7 @@ public class MainApp {
 		prime(x);
 		
 	}
-	
-	// Nhap mang
+
 	public static void inputArr( int []x) {
 	Scanner sc =new Scanner(System.in);
 	
@@ -34,7 +33,6 @@ public class MainApp {
 		}
 	}
 	
-	//Kiem tra tong cua cac ptu trong mang la chan hay le
 	static void tinhTongChanLe(int []x) {
 		int sum = 0;
 		
@@ -63,7 +61,6 @@ public class MainApp {
 		System.out.printf("Mang co so so chan la: %d, Co so so le la %d\n ",countC,countL);
 	}
 	
-	//Sap xep tang dan mang
 	static void shortInc(int []x) {
 		int temp = x[0];
 		
@@ -101,7 +98,7 @@ public class MainApp {
 		}
 
 	}
-	//Kiem tra pt xuat hien nhieu nhat
+	
 	static void find(int[] x) {
 		int currentIndex = 0;
 		int count = 1;
